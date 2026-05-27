@@ -42,7 +42,7 @@ All numbers are success rates (%) averaged over 3 evaluation seeds.
 </thead>
 <tbody>
 <tr><td><i>Train from scratch</i></td><td align="center">66.6</td><td align="center">19.4</td><td align="center">20.3</td><td align="center">68.6</td><td align="center">28.9</td><td align="center">30.1</td></tr>
-<tr><td><b>Baseline (pretrained VLM)</b></td><td align="center">92.4</td><td align="center"><b>45.8</b></td><td align="center">49.5</td><td align="center">91.8</td><td align="center">50.5</td><td align="center">51.7</td></tr>
+<tr><td>Baseline (pretrained VLM)</td><td align="center">92.4</td><td align="center"><b>45.8</b></td><td align="center">49.5</td><td align="center">91.8</td><td align="center">50.5</td><td align="center">51.7</td></tr>
 <tr><td colspan="7"></td></tr>
 <tr><td>Spatial</td><td align="center">93.0</td><td align="center">41.4</td><td align="center">49.2</td><td align="center">92.4</td><td align="center">49.9</td><td align="center">50.0</td></tr>
 <tr><td><b>Grounding</b></td><td align="center"><b>95.6</b></td><td align="center">44.8</td><td align="center"><b>50.4</b></td><td align="center"><b>94.2</b></td><td align="center"><b>50.8</b></td><td align="center"><b>52.7</b></td></tr>
