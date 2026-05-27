@@ -1,0 +1,68 @@
+{
+  "entries": [
+    {
+      "domain": "spatial",
+      "name": "spatial_sample",
+      "path": "spatial/spatial_sample.jsonl",
+      "format": "qwen_vl_json",
+      "samples": 5688000,
+      "weight": 1.0,
+      "license": "dataset-specific"
+    },
+    {
+      "domain": "grounding",
+      "name": "grounding_sample",
+      "path": "grounding/grounding_sample.jsonl",
+      "format": "qwen_vl_json",
+      "samples": 4438000,
+      "weight": 1.0,
+      "license": "dataset-specific"
+    },
+    {
+      "domain": "plan_reasoning",
+      "name": "plan_reasoning_sample",
+      "path": "plan_reasoning/plan_reasoning_sample.jsonl",
+      "format": "qwen_vl_json",
+      "samples": 815000,
+      "weight": 1.0,
+      "license": "dataset-specific"
+    },
+    {
+      "domain": "camera_prediction",
+      "name": "camera_prediction_sample",
+      "path": "camera_prediction/camera_prediction_sample.jsonl",
+      "format": "qwen_vl_json",
+      "samples": 8301000,
+      "weight": 1.0,
+      "license": "dataset-specific"
+    },
+    {
+      "domain": "egocentric_understanding",
+      "name": "ego_sample",
+      "path": "egocentric_understanding/ego_sample.jsonl",
+      "format": "qwen_vl_json",
+      "samples": 4597000,
+      "weight": 1.0,
+      "license": "dataset-specific"
+    },
+    {
+      "domain": "temporal_understanding",
+      "name": "temporal_sample",
+      "path": "temporal_understanding/temporal_sample.jsonl",
+      "format": "qwen_vl_json",
+      "samples": 998000,
+      "weight": 1.0,
+      "license": "dataset-specific"
+    },
+    {
+      "domain": "action_ntp",
+      "name": "action_ntp_sample",
+      "path": "action_ntp/action_ntp_sample.jsonl",
+      "format": "qwen_vl_json",
+      "samples": 1200000,
+      "weight": 1.0,
+      "license": "dataset-specific"
+    }
+  ]
+}
+

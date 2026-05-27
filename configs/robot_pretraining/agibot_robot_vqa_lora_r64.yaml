@@ -1,0 +1,21 @@
+{
+  "kind": "robot_pretraining",
+  "name": "agibot_robot_vqa_lora_r64",
+  "entrypoint": "starVLA/training/train_starvla.py",
+  "config_name": "agibot_vqa_pretrain",
+  "pretrain_data": "agibot_plus_vqa",
+  "init_checkpoint": "base",
+  "output_dir": "${RETHINK_OUTPUT_ROOT}/robot_pretraining/agibot_robot_vqa_lora_r64",
+  "overrides": {
+    "training_steps": 100000,
+    "batch_size": 128,
+    "action_chunk_size": 30,
+    "vlm_learning_rate": "2e-5",
+    "action_head_learning_rate": "1e-4",
+    "lora_rank": 64,
+    "lora_alpha": 128,
+    "action_loss_weight": 1.0,
+    "vqa_loss_weight": 0.1
+  }
+}
+
