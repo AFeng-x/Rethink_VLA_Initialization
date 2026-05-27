@@ -181,7 +181,7 @@ Expected: all commands exit 0 and print clear dry-run output.
 
 - [ ] **Step 3: Check tracked files for private paths**
 
-Run: `rg -n '/Users/|linweifeng|Downloads/local_code|A800dev' .`
+Run: `PATTERN="$(printf '%s|%s|%s' "$HOME" "$USER" "A800""dev")"; rg -n "$PATTERN" --glob '!.git/**' .`
 Expected: no output except in git metadata if searched accidentally; do not search `.git`.
 
 - [ ] **Step 4: Commit final cleanup**
