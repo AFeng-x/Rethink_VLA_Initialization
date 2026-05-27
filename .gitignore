@@ -8,6 +8,7 @@ venv/
 build/
 dist/
 *.egg-info/
+uv.lock
 
 # Local experiment state
 outputs/
@@ -20,4 +21,7 @@ data/
 .DS_Store
 .idea/
 .vscode/
+
+# Tool-generated planning files
+docs/superpowers/
 
