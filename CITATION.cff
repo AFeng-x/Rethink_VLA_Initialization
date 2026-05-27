@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "Rethinking VLM Representation for VLA Initialization"
+message: "If you use this repository, please cite the associated paper."
+type: software
+authors:
+  - family-names: Lin
+    given-names: Weifeng
+  - family-names: Huang
+    given-names: Siyuan
+  - family-names: Li
+    given-names: Hao
+  - family-names: Chen
+    given-names: Tingwei
+  - family-names: An
+    given-names: Ruichuan
+  - family-names: Wei
+    given-names: Xinyu
+  - family-names: Liu
+    given-names: Jianbo
+  - family-names: Li
+    given-names: Hongsheng
+repository-code: "https://github.com/your-org/Rethink_VLA_Initialization"
+date-released: "2026-05-27"
+license: MIT
+
