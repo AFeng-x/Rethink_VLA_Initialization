@@ -18,8 +18,6 @@ Key findings:
 
 ## Main Results
 
-All numbers are success rates (%) averaged over 3 evaluation seeds.
-
 ### Table 1: Single-Domain VQA Adaptation
 
 > Effect of adapting the VLM with a single embodied VQA domain before VLA training.
@@ -89,8 +87,6 @@ All numbers are success rates (%) averaged over 3 evaluation seeds.
 </table>
 
 ### Table 3: Robot-Data Pretraining
-
-> Staged LoRA pretraining (G+E → AgiBot) achieves the best initialization.
 
 <table>
 <thead>
